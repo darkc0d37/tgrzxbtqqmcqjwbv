@@ -66,8 +66,8 @@ theme:
   # features:
   #   - header.autohide
 
-extra_css:
-    - assets/css/custom.css
+# extra_css:
+#     - assets/css/custom.css
 
 plugins:
   - search
