@@ -1,0 +1,91 @@
+site_name: "Bug Bounty Database"
+site_author: "Tirtha Mandal"
+copyright: ""
+
+repo_name: tirtha-mandal
+repo_url: https://tirtha-mandal/
+edit_uri: tree/master/docs
+
+nav:
+  - Home: index.md
+  - Bugcrowd: 
+    - Hulu:
+      - Scope: Bugcrowd/Hulu/scope.md
+      - Subdomains: Bugcrowd/Hulu/subdomain.md
+      - IP: Bugcrowd/Hulu/ip.md
+      - Live Subdomains: Bugcrowd/Hulu/live_subdomains.md
+      - Wayback URLs: Bugcrowd/Hulu/waybackurls.md
+      - JS Files: Bugcrowd/Hulu/js_files.md
+      - Tested Funcationalities: Bugcrowd/Hulu/tested.md
+      - Interesting Endpoints/Notes: Bugcrowd/Hulu/notes.md
+    - Pinterest: 
+      - Scope: Bugcrowd/Pinterest/scope.md
+      - Subdomains: Bugcrowd/Pinterest/subdomain.md
+      - IP: Bugcrowd/Pinterest/ip.md
+      - Live Subdomains: Bugcrowd/Pinterest/live_subdomains.md
+      - Wayback URLs: Bugcrowd/Pinterest/waybackurls.md
+      - JS Files: Bugcrowd/Pinterest/js_files.md
+      - Tested Funcationalities: Bugcrowd/Pinterest/tested.md
+      - Interesting Endpoints/Notes: Bugcrowd/Pinterest/notes.md
+  - Hackerone: hackerone.md
+  - Synack: synack.md
+  - Intigriti: intigriti.md
+
+
+theme:
+  name: material
+  palette:
+    primary: teal
+    accent: teal
+  # logo: assets/now-logo.svg
+  # favicon: assets/favicon.ico
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.expand
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  # features:
+  #   - header.autohide
+
+extra_css:
+    - assets/css/custom.css
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - attr_list
+  - admonition
+  - codehilite
+  - def_list
+  - tables
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
