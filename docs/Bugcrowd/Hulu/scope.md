@@ -1,4 +1,4 @@
-# [Hulu Bug Bounty Program](https://bugcrowd.com/hulu)
+# [Hulu Bug Bounty Program](https://bugcrowd.com/hulu){target=_blank}
 
 ## About 
 Hulu strives to keep abreast on the latest security threats by offering monetary rewards for qualifying work put in by the security researcher and developer community. We are committed to keeping an honest and fair program for all participants.
