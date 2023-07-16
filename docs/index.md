@@ -1,7 +1,7 @@
-# Welcome to Bug Bounty Databases
+# All About Web Application Security
 
 
 
 ## ReadMe
 
-* This is just to maintain databases for bug bounty.
+* This is just to maintain stuff about Web Security

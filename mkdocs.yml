@@ -1,4 +1,4 @@
-site_name: "CRTP"
+site_name: "All About Web App"
 site_author: "Tirtha Mandal"
 copyright: ""
 
@@ -8,8 +8,6 @@ edit_uri: tree/master/docs
 
 nav:
   - Home: index.md
-  - CRTP: 
-      - Domain Enumation: crtp/domain-enum.md
   - Web App:
       - Interview Questions: web/interview.md    
 
